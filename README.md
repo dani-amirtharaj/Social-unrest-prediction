@@ -39,20 +39,19 @@ For obtaining results of the headlines model, run headlines_dataset.ipynb and ex
 Note: Both datasets use the same underlying python files for computing the sentiment. Results are provided in a tabular format and with graphs for the continual prediction model.
 
 
-### UI
+### Application with UI
+
 #### Frontend
 To run the frontend angular app server, follow these steps:
    * Install node and angular cli, if unavailable in the system.
    * Navigate to angular_app/violence-pred/ and run the command, `ng serve --open`.
    * This will open the angular app on the default browser (port 4200).
-
-
+   
 #### Backend
 To run the backend Flask server, follow these steps:
    * Run all the to initialize and start the server.
    * The server will start on port 5000, and serve the angular app.
    
- 
 ### Automation
 
 * We setup cron job to automatically scrape tweets as well as news articles at a specified time of the day. This will also make predictions for all locations and given date and save it in a json file (NLP_on_tweets.ipynb is run). 
