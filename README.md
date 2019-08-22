@@ -1,4 +1,4 @@
-# Election Violence Prediction
+# Social Unrest Prediction
 <p align="center">
 <!-- <img src="assets/ada.png" width="300"> -->
 </p>
