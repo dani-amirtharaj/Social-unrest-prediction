@@ -36,8 +36,7 @@ In order to run the model on twitter data, goto the nlp_on_tweets.ipynb for visu
 #### Headlines Models:
 For obtaining results of the headlines model, run headlines_dataset.ipynb and execute all cells for executing all ML models.
 
-* Both datasets use the same underlying python files for computing the sentiment.
-* Results are provided in a tabular format and with graphs for the continual prediction model.
+Note: Both datasets use the same underlying python files for computing the sentiment. Results are provided in a tabular format and with graphs for the continual prediction model.
 
 
 ### UI
